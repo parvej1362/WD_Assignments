@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Development Assignments</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: url('background.jpg') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      color: white;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      height: 100vh;
+      width: 100%;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header {
+      text-align: left;
+      padding: 20px;
+    }
+
+    header h1 {
+        text-align: center;
+      font-size: 2.5rem;
+      color: #00ffff;
+    }
+
+    header p {
+        text-align: center;
+      font-size: 1.2rem;
+      margin-top: 5px;
+    }
+
+    .center-buttons {
+      text-align: center;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+
+    .icon{
+        font-size: 45px;
+        margin-bottom: 5px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 20px;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: 0.3s ease;
+      color: white;
+    }
+
+    .btn-html {
+      background: #e44d26;
+    }
+
+    .btn-css {
+      background: #264de4;
+    }
+
+    .btn-xml {
+      background: #8e44ad;
+    }
+    .btn-xsl{
+        background: #f0da16;
+    }
+    .btn-project{
+        background: #066916;
+    }
+
+    .btn:hover {
+      transform: scale(1.1);
+      opacity: 0.9;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <header>
+      <h1>Web Development Assignments</h1>
+      <p><strong>Name: </strong>Parvej Gavasmohoddin Mulani</p>
+      <p><strong>Division: </strong>B</p>
+      <p><strong>Batch: </strong>S2</p>
+      <p><strong>Roll No: </strong>50</p>
+    </header>
+
+    <div class="center-buttons">
+        <div class="btn-container">
+          <i class="fab fa-html5 icon" style="color: #e44d26;"></i>
+          <a href="HTML/htmlAssignments.html" style="text-decoration: none;"><button class="btn btn-html">HTML Assignments</button></a>
+          
+        </div>
+        <div class="btn-container">
+          <i class="fab fa-css3-alt icon" style="color: #264de4;"></i>
+          <a href="CSS/CssAssignments.html" style="text-decoration: none;"><button class="btn btn-css">CSS Assignments</button></a>  
+        </div>
+        <div class="btn-container">
+          <i class="fas fa-code icon" style="color: #8e44ad;"></i>
+          <a href="XML/XMLAssignment.html" style="text-decoration: none;"><button class="btn btn-xml">XML Assignments</button></a>
+        </div>
+        <div class="btn-container">
+            <i class="fas fa-code icon" style="color: #f0da16; font-size: 45px;"></i>
+            <a href="XSL/XSLAssignment.html" style="text-decoration: none;"><button class="btn btn-xsl">XSL Assignments</button></a>
+        </div>
+        <div class="btn-container">
+            <i class="fas fa-laptop-code" style="color: #066916; font-size: 45px;"></i>
+            <a href="https://parvej1362.github.io/Insect_Game/" style="text-decoration: none;"><button class="btn btn-project">Mini Project</button></a>
+        </div>
+      </div>
+
+    <footer>
+      &copy; 2025 Web Dev Class. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
