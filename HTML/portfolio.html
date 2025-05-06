@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Page - Parvej Mulani</title>
+    <!-- <style>
+      /* General Styles */
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: #f0f4f8;
+        margin: 0;
+        padding: 0;
+        color: #333;
+        animation: fadeInBody 1s ease-in;
+      }
+
+      header {
+        background: #0077b6;
+        color: white;
+        padding: 40px 20px;
+        text-align: center;
+        position: relative;
+        animation: slideDown 1.2s ease-out;
+      }
+
+      .profile-img {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        border: 4px solid #fff;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+      }
+
+      .profile-img:hover {
+        transform: scale(1.05);
+      }
+
+      section {
+        background: white;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        animation: fadeInUp 0.8s ease-in-out;
+      }
+
+      h1,
+      h2 {
+        margin-bottom: 10px;
+      }
+
+      ul {
+        list-style-type: disc;
+        margin-left: 20px;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 15px;
+      }
+
+      table th,
+      table td {
+        border: 1px solid #ccc;
+        padding: 12px;
+        text-align: center;
+      }
+
+      table th {
+        background-color: #0077b6;
+        color: white;
+      }
+
+      table a {
+        color: #0077b6;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background 0.3s, color 0.3s;
+        padding: 6px 12px;
+        border-radius: 6px;
+        display: inline-block;
+      }
+
+      table a:hover {
+        background-color: #0077b6;
+        color: white;
+      }
+
+      footer {
+        text-align: center;
+        padding: 20px;
+        background: #023e8a;
+        color: white;
+        font-weight: bold;
+        animation: fadeInBody 1s ease-in;
+      }
+
+      hr {
+        margin: 40px 0;
+        border: none;
+        border-top: 2px solid #ccc;
+      }
+
+      @media (max-width: 600px) {
+        .profile-img {
+          position: static;
+          display: block;
+          margin: 20px auto;
+        }
+
+        header {
+          padding-top: 20px;
+        }
+      }
+
+      /* Animations */
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes slideDown {
+        from {
+          opacity: 0;
+          transform: translateY(-50px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes fadeInBody {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    </style> -->
+  </head>
+  <body>
+    <header>
+      <h1>Parvej Mulani</h1>
+      <p>I am a college student in my 2nd year.</p>
+      <p>I am pursuing my bachelors in CS in DYPCET.</p>
+      <img src="me.jpg" alt="my image" class="profile-img" />
+    </header>
+
+    <section>
+      <h2>Qualification</h2>
+      <table>
+        <tr>
+          <th>Sr. No.</th>
+          <th>Class</th>
+          <th>Year</th>
+          <th>Percentage/ CGPA</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>SSC Board (10th)</td>
+          <td>2020-21</td>
+          <td>96.20%</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>HSC Board (12th)</td>
+          <td>2022-23</td>
+          <td>73.17%</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>B. Tech(Compter Science)</td>
+          <td>2023-2027</td>
+          <td>9.4</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>C, C++</li>
+        <li>HTML, CSS</li>
+        <li>Beginner Java</li>
+        <li>React JS</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Hobbies</h2>
+      <ul>
+        <li>Love to play cricket and volleyball</li>
+        <li>Reading books</li>
+        <li>Love to listen to music</li>
+        <li>Love to code</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Achievements</h2>
+      <ul>
+        <li>
+          I have achieved 3<sup>rd</sup> rank in volleyball at district level.
+        </li>
+        <li>I ranked 1<sup>st</sup> in my school’s SSC Board exam.</li>
+        <li>Currently I am learning web development using MERN Stack</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <table>
+      <tr>
+        <th>Sr. No.</th>
+        <th>Project Name</th>
+        <th>Description</th>
+        <th>View Project</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>StayHub</td>
+        <td>
+          This website helps students to find Pg's and rooms to their nearby
+          college.
+        </td>
+        <td>
+          <button><a href="Ass2 staticWebPage.html">View</a></button>
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>SmartDocs</td>
+        <td>
+          This website helps Students and teachers to maintain their documents
+          and they can share easily. i have created this Project under Community
+          Engagement Project Program.
+        </td>
+        <td>
+          <button><a href="Ass2 staticWebPage.html">View</a></button>
+        </td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Edemy(LMS)</td>
+        <td>
+          It is a learning management System, which provides a platform to
+          instructor and students to list courses and enroll in courses.
+        </td>
+        <td>
+          <button>
+            <a href="https://lms-frontend-beta-seven.vercel.app/">View</a>
+          </button>
+        </td>
+      </tr>
+      </table>
+    </section>
+
+    <footer>
+      <p>Made with Love &hearts;</p>
+      <div style="margin-top: 15px">
+        <p>
+          📞 Phone:
+          <a
+            href="tel:+911234567890"
+            style="color: #fff; text-decoration: underline"
+            >+91 9322504700</a
+          >
+        </p>
+        <p>
+          📧 Email:
+          <a
+            href="mailto:parvej@example.com"
+            style="color: #fff; text-decoration: underline"
+            >parvejmulani8326@gmail.com</a
+          >
+        </p>
+      </div>
+      <div style="margin-top: 15px">
+        <a
+          href="www.linkedin.com/in/parvej-mulani-26a309319"
+          target="_blank"
+          style="margin-right: 15px"
+        >
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+            alt="LinkedIn"
+            width="30"
+            height="30"
+            style="vertical-align: middle"
+          />
+        </a>
+        <a href="https://github.com/parvej1362" target="_blank">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+            alt="GitHub"
+            width="30"
+            height="30"
+            style="vertical-align: middle"
+          />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
